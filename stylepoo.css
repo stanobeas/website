@@ -1,0 +1,160 @@
+body{
+    color: white;
+    background-color: #61A3BA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.hi{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color:rgb(256,188,20);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.songshaeder{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 55px;
+    background-color: rgba(0, 0, 0, 0.432);
+    text-align: center;
+    color: rgb(256,188,20);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.songsdiv{
+    text-align: center;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    margin: 0 25%;
+    background-color:  #2657a1af;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration:none;
+    color: #FFFFDD;
+}
+
+nav ul li a:hover {
+    background-color:  #3226a1af;
+}
+
+.artist{
+    width: 400px;
+    height: 125px;
+}
+.paragraph{
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.albumss{
+    width: 50%;
+    margin: 0 25%;
+}
+.artist {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+
+}
+.artist img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.artist h2 {
+    color: white;
+    margin-top: 10px;
+}
+.artists-container {
+    text-align: center;
+}
+.album {
+    width: 10%;
+    height: 15%;
+    margin: 20px auto;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+.album img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.album h2 {
+    margin-top: 10px;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.event {
+    text-align: center;
+    margin: 0 auto;
+    width: 49%;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.event h2 {
+    color: rgb(256,188,20);
+}
+.event p {
+    color: white;
+}
+.contact-form {
+    color: rgb(256,188,20);
+    background-color: rgba(0, 0, 0, 0.432);;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contact-form textarea {
+    height: 150px;
+}
+.contact-form input[type="submit"] {
+    background-color: rgb(256,188,20);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
